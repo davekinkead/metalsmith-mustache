@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/davekinkead/metalsmith-mustache/issues"
   },
-  "homepage": "https://github.com/davekinkead/metalsmith-mustache#readme"
+  "homepage": "https://github.com/davekinkead/metalsmith-mustache#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "glob-fs": "^0.1.7",
+    "jstransformer-mustache": "^0.1.1",
+    "path": "^0.12.7"
+  }
 }
