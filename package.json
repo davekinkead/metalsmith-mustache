@@ -1,0 +1,25 @@
+{
+  "name": "metalsmith-mustache",
+  "version": "0.1.0",
+  "description": "Mustache templates for Metalsmith",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davekinkead/metalsmith-mustache.git"
+  },
+  "keywords": [
+    "metalsmith",
+    "plugin",
+    "mustache",
+    "layout"
+  ],
+  "author": "Dave Kinkead",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davekinkead/metalsmith-mustache/issues"
+  },
+  "homepage": "https://github.com/davekinkead/metalsmith-mustache#readme"
+}

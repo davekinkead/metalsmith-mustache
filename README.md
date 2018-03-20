@@ -1,2 +1,3 @@
-# metalsmith-mustache
-A Metalsmith plugin for Mustahce layouts
+# Metalsmith Mustache
+
+A Metalsmith plugin for Mustahce layouts.  Work in Progress.
