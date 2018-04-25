@@ -41,13 +41,15 @@ function plugin(options){
 
     //  render the files
     for (const name in files) {
-      const file = files[name]
-      const stash = Mustache.render(
-        getTemplate(file, settings), 
-        Object.assign({}, {site: metalsmith.metadata()}, {page: file}), 
-        templates
-      )
-      file.contents = Buffer.from(stash)
+      if (name.match(/\.txt$|\.md$|\.html$/)) {
+        const file = files[name]
+        const stash = Mustache.render(
+          getTemplate(file, settings), 
+          Object.assign({}, {site: metalsmith.metadata()}, {page: file}), 
+          templates
+        )
+        file.contents = Buffer.from(stash)        
+      }
     }
 
     done()  
